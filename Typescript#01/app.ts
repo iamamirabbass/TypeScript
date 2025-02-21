@@ -27,9 +27,9 @@ type Input = number | string;
 
 function processInput(input: Input): string {
     if (typeof input === "number") {
-        return Number: input.toString();
+        return `Number: ${input.toString()}`;
     } else {
-        return String: input;
+        return `String: ${input}`;
     }
 }
 console.log(processInput(42));       
